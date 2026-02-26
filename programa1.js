@@ -8,10 +8,12 @@ A saída deve corresponder exatamente ao exemplo, incluindo letras maiúsculas e
 
 
 //Criando lista com os nomes
-var lista_de_nomes=[ "Daniel", "William", "José", "Alexandre", "Carlos", "João"];
 
-function selecionarNome() {
+var lista_nomes=[];
+function selecionarNome( lista_nomes ) {
 
-    var quant_pessoas_lista=lista_de_nomes.length;
-    var sorteio=Math.floor(Math.random(lista_de_nomes.length) * 11);
+    var quant_pessoas_lista=lista_nomes.length;
+    var sorteio=Math.floor(Math.random(lista_nomes.length) * 7);
+    quant_pessoas_lista=sorteio;
+    console.log(lista_nomes[sorteio]);
 }
