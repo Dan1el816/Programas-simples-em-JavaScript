@@ -16,11 +16,11 @@ function fibonacciGenerator(n) {
     return resultado;
   }
 
-  for (var i = 2; i <= n; i++) {
+  for (var i = 2; i < n; i++) {
     sequencia[i] = sequencia[i - 1] + sequencia[i - 2];
-    resultado = sequencia;
+  
   }
-
+resultado = sequencia;
   return resultado;
 }
 
