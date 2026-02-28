@@ -6,16 +6,19 @@ function fibonacciGenerator(n) {
     var sequencia = [n];
     sequencia[0] = 0;
     
+
+    var resultado;
+    
     if (n === 0) {
-        resultado = sequencia;
+         resultado = sequencia;
         return resultado;
     } else {
         sequencia[1] = 1;
     }
 
-    var resultado;
     
-    if (n < 2) {
+    
+    if (n === 1) {
         resultado = sequencia;
         return resultado;
     }
