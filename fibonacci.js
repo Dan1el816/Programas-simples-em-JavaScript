@@ -3,12 +3,12 @@ function fibonacciGenerator(n) {
 
   
     
-    var sequencia = [n];
+    var sequencia = [0];
     sequencia[0] = 0;
     
 
     var resultado;
-    
+
     if (n === 0) {
          resultado = sequencia;
         return resultado;
