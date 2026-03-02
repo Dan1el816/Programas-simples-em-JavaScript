@@ -10,7 +10,6 @@ function fibonacciGenerator(n) {
     sequencia[0] = 0;
   }
 
-
   if (n === 1) {
     resultado = sequencia[0];
     return resultado;
@@ -18,9 +17,8 @@ function fibonacciGenerator(n) {
 
   for (var i = 2; i < n; i++) {
     sequencia[i] = sequencia[i - 1] + sequencia[i - 2];
-  
   }
-resultado = sequencia;
+  resultado = sequencia;
   return resultado;
 }
 
